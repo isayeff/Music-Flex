@@ -27,7 +27,7 @@ nav {
 .carousel-item {
     background: url('../img/header-8-1024x480.jpg')70%/cover;
     height: 100vh;
-    filter: brightness(.5);
+    /* filter: brightness(.5); */
 }
 .crsl2 {background: url('../img/Home-Slider-2-1024x586.jpg')70%/cover;}
 .crsl3 {background: url('../img/Home-Slider-3-1024x586.jpg')60%/cover;}
