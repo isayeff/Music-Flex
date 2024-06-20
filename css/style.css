@@ -14,7 +14,7 @@ nav {
     padding-top: 15px;
 }
 .dropdown {
-    margin-right: 120px;
+    /* margin-right: 120px; */
 }
 #navbarNavDropdown li a {
     color: #fff;
@@ -455,6 +455,20 @@ footer a {color: #fff}
 .footer-text a:hover {color: var(--yellow);}
 .footer-text span:hover {color: var(--yellow); cursor: pointer;} 
 .footer-blog-text a:hover {color: var(--yellow);}
+
+.goTop {
+    padding: 15px 20px;
+    background-color: #FFCB00;
+    font-weight: 900;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.goTop a {color: #000;}
+
+
 @media only screen and (min-width:768px) {
     #navbarNavDropdown li a.active, #navbarNavDropdown li a:hover {
         border-top: 3px solid var(--yellow)!important;
