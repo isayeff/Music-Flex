@@ -41,10 +41,14 @@ nav {
     position: absolute;
     bottom: -80%;
     opacity: 0;
-    animation: carousel-content 1s ease-in-out forwards;
+    /* animation: carousel-content 1s ease-in-out forwards; */
+    animation-name: carousel-content;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
 @keyframes carousel-content {
-    from {bottom: -80%; opacity: 0;}
+    from {bottom: -40%; opacity: 0;}
     to {bottom: 0; opacity: 1;}
 }
 .carousel-content p {padding: 20px 0;}
