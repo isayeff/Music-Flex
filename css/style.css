@@ -63,7 +63,10 @@ nav {
 h1 {
     font-size: 2rem !important;
     font-weight: bold !important;
+<<<<<<< HEAD
     overflow: auto;
+=======
+>>>>>>> 9aec11ca9df1844be98bc347a6e120d6c80d4499
 }
 h2 {
     font-size: 2rem !important;
