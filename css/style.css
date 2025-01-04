@@ -63,6 +63,7 @@ nav {
 h1 {
     font-size: 2rem !important;
     font-weight: bold !important;
+    overflow: auto;
 }
 h2 {
     font-size: 2rem !important;
